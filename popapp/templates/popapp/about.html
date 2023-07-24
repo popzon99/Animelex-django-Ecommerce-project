@@ -1,0 +1,47 @@
+{% extends 'popapp/nav.html' %}
+
+{% block title %}
+ ANIMELEX
+
+{% endblock title %}
+
+{% block body %}
+{% load static %}
+
+
+<br>
+
+
+<section id="about" class="about mt-5">
+    <div class="container" data-aos="fade-up">
+  
+  <div class="row">
+    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+      <img src="{% static  'assets/img/logo.png' %}" class="img-fluid" alt="">
+    </div>
+    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content fst-italic">
+      <h3>Welcome to Animelex!</h3>
+      <p class="fst-italic">
+        We are your ultimate destination for authentic anime items, ranging from clothing to shoes and more. With our 100% authentication guarantee, order tracking system, and convenient online delivery, we make it effortless for you to indulge in your anime fandom and add remarkable pieces to your collection.
+      </p>
+      <ul>
+        <li class="fst-italic"><i class="bi bi-check-circle"></i> Discover a vast selection of anime merchandise, carefully curated to cater to all your preferences and style.</li>
+        <li class="fst-italic"><i class="bi bi-check-circle"></i> Enjoy peace of mind with our order tracking feature, allowing you to monitor the progress of your purchase every step of the way.</li>
+        <li class="fst-italic"><i class="bi bi-check-circle"></i> Experience the convenience of online delivery, bringing your favorite anime items directly to your doorstep.</li>
+      </ul>
+      <p class="fst-italic">
+        At Animelex, we strive to provide exceptional customer service and ensure your shopping experience is seamless and enjoyable. If you have any questions or concerns, our dedicated and friendly customer support team is here to assist you.
+      </p>
+      <p class="fst-italic">
+        Thank you for choosing Animelex as your go-to online destination for all your anime merchandise needs. Start exploring our collection and elevate your anime fandom to new heights!
+      </p>
+  
+    </div>
+  </div>
+    </div>
+  </section>
+
+
+
+  
+{% endblock body %}
